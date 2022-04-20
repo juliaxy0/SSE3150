@@ -34,9 +34,10 @@ crossorigin="anonymous">
     $message = false;
       if (! isset($_GET['guess']) ) {
         $_SESSION['attempt'] = 0;
+        $message = "<p align=center>Missing guess parameter</p>";
       } else if ( strlen($_GET['guess']) < 1 ) {
         $_SESSION['attempt']++;
-        $message = "<p align=center>[Attempt ". $_SESSION['attempt'] . "] - Enter your guess</p>";
+        $message = "<p align=center>[Attempt ". $_SESSION['attempt'] . "] - Your guess is too short</p>";
       } else if ( ! is_numeric($_GET['guess']) ) {
         $_SESSION['attempt']++;
         $message = "<p align=center>[Attempt ". $_SESSION['attempt'] ."] - ".$_GET['guess']." is not a number</p>";
