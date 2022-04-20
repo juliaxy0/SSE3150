@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <title>Bootstrap Tutorial Sample Page</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+integrity="sha384-
+TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+ </head>
+ <body>
+   <nav class="navbar navbar-expand-md">
+ <a class="navbar-brand" href="https://www.japan.go.jp/" target="_blank">Japan</a>
+ <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" datatarget="#main-navigation">
+ <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="main-navigation">
+ <ul class="navbar-nav">
+ <li class="nav-item">
+ <a class="nav-link" href="#">Home</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="#3column">About</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="#touch">Contact</a>
+ </li>
+ </ul>
+ </div>
+</nav>
+
+<header class="page-header header container-fluid">
+  <div class="overlay"></div>
+  <div class="description">
+ <h1>Welcome to Japan!</h1>
+ <p> "Finding paradise in the streets of Japan."</p>
+<a  href="https://www.youtube.com/watch?v=0oi3Um_kbs8" target="_blank"><button class="btn btn-outline-secondary btn-lg">Tell Me More!</button></a>
+</div>
+
+</header>
+
+<div  id="3column" class="container features">
+ <div class="row">
+ <div class="col-lg-4 col-md-4 col-sm-12">
+ <h3 class="feature-title">Mount Fuji</h3>
+ <img src="column1.jpg" class="img-fluid">
+ <p>Japan’s Mt. Fuji is an active volcano about 100 kilometers southwest of Tokyo.
+   Commonly called “Fuji-san,” it’s the country’s tallest peak, at 3,776 meters.
+   A pilgrimage site for centuries, it’s considered one of Japan’s 3 sacred mountains,
+   and summit hikes remain a popular activity. </p>
+ </div>
+
+ <div class="col-lg-4 col-md-4 col-sm-12">
+ <h3 class="feature-title">Historical Kyoto</h3>
+ <img src="column2.jpg" class="img-fluid">
+ <p>What Kyoto famous for?
+Kyoto is considered the cultural capital of Japan and a major tourist destination.
+It is home to numerous Buddhist temples, Shinto shrines, palaces and gardens,
+some of which are listed collectively by UNESCO as a World Heritage Site.</p>
+ </div>
+
+ <div id="touch" class="col-lg-4 col-md-4 col-sm-12">
+   <h3 class="feature-title">Get in Touch!</h3>
+   <div class="form-group">
+    <input type="text" class="form-control" placeholder="Name" name="">
+   </div>
+   <div class="form-group">
+    <input type="email" class="form-control" placeholder="Email Address"
+   name="email">
+   </div>
+   <div class="form-group">
+    <textarea class="form-control" rows="4"></textarea>
+   </div>
+   <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+ </div>
+ </div>
+</div>
+
+
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-
+9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+integrity="sha384-
+w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+crossorigin="anonymous"></script>
+<script src="main.js"></script>
+ </body>
+
+</html>
