@@ -51,12 +51,12 @@ crossorigin="anonymous">
         $_SESSION['attempt']++;
         $message = "<p align=center>CONGRATULATION!<br>You are right with ". $_SESSION['attempt'] ." Attempts<br> The correct number is ". $_SESSION['randomNum']."</p>";
         if (isset($_GET['restart'])){
-          $_SESSION['startNum'] = rand(1,30);
+          $_SESSION['randomNum'] = rand(1,30);
         }
       }
 
       if (isset($_GET['restart'])){
-        $_SESSION['startNum'] = rand(1,30);
+        $_SESSION['randomNum'] = rand(1,30);
       }
     ?>
 
