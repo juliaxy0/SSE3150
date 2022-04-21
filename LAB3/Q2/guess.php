@@ -2,7 +2,6 @@
 
 ////////////////////////////////////////////////service
 
-      //static random number for the game
     <?php session_start();  //starting session
     if (! isset($_SESSION['randomNum'])){
       $_SESSION['randomNum'] = rand(1,30); //random number
