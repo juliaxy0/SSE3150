@@ -1,7 +1,5 @@
   <html>
 
-////////////////////////////////////////////////service
-
     <?php session_start();  //starting session
     if (! isset($_SESSION['randomNum'])){
       $_SESSION['randomNum'] = rand(1,30); //random number
@@ -38,7 +36,6 @@
         $oldguess = isset($_GET['guess']) ? $_GET['guess'] : '';
     ?>
 
-//////////////////////////////////////////model
 
   <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
