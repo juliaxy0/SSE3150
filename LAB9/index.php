@@ -15,7 +15,6 @@
 
         // Record every inputs in $_SESSION['attendance'] when the check-in button is clicked.
         $_SESSION['attendance'] [] = array($_POST['name'], $_POST['matric'], $_POST['datetime']);
-        echo(json_encode($_SESSION['attendance']));
 
     }
 ?>
