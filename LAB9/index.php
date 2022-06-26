@@ -50,10 +50,12 @@
         </form><br /><br />
 
         <!-- All current attendance list records will be shown here -->
-        <table id="currentattendancelist">
+        <div  id="currentattendancelist">
+        <table>
             <caption>Current Attendance List</caption>
             <tr><th>No.</th><th>Matric Number</th><th>Name</th><th>DateTime</th></tr>
         </table>
+      </div>
 
         <!-- Load JQuery -->
         <script type="text/javascript" src="jquery.min.js"> </script>
