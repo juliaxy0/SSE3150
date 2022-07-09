@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Julia Nurfadhilah 208256 Lab1Q1</title>
+  <meta charset="UTF-8">
+  <style>
+body {
+  background-color: rgb(108, 145, 156);
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section {
+  width: 100%;
+  height: 35vh;
+  background-color: rgb(108, 145, 156);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.model {
+    height: 260px;
+    position: absolute;
+    bottom: 50%;
+    left:65%;
+    transform: translateX(-50%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+  width: 90vw;
+  position: fixed;
+  z-index: 9999;
+  /* prevent overlapping or navbar */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 30px;
+  font-family: myriad pro regular;
+  color: black;
+  font-size: 17px;
+  font-weight: 70;
+}
+
+.logo {
+  font-family: RoadTest;
+  color: #000000;
+  font-size: 22px;
+  font-weight: bolder;
+  position: absolute;
+  left: 10%;
+}
+
+.logopic {
+  height: 35px;
+}
+
+.text-container {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  left: 35%;
+  top: 35%;
+  transform: translate(-13%, -42%);
+}
+
+.text-container h1:nth-child(1) {
+  font-family: calibri;
+  font-size: 22px;
+}
+
+.text-container p:nth-child(2) {
+  font-family: calibri;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.text-container p:nth-child(3) {
+  font-family: myriad pro regular;
+  font-size: 22px;
+}
+
+.about-container{
+    width:80%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius:30px;
+    box-shadow: 2px 2px 12px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin:  auto;
+    position: relative;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+}
+
+.text-container p {
+  line-height: 40px;
+  margin: 20px 20px 5px;
+}
+
+.about-text p {
+  padding-left: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin:20px;
+	border: 1px solid black;
+}
+
+th,td {
+  text-align: center;
+  padding: 15px;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="section">
+
+
+    <!-- navigation -->
+    <nav>
+      <!-- logo -->
+      <img src="logo.jpg" class="logopic" alt="logo">
+      <a href="#top" class="logo"> My Personal Website</a>
+      <!-- menu -->
+      <ul>
+        <li><a href="#top"></a>Home</li>
+        <li><a href="#about"></a>About</li>
+        <li><a href="#contact"></a>Contact us</li>
+      </ul>
+      <!-- menu -->
+    </nav>
+    <!-- navigation -->
+
+
+    <!-- text  -->
+    <div class="text-container">
+      <h1><a href="#about"><img src="https://github.com/juliaxy0/juliaxy0.github.io/blob/main/flower.png?raw=true" alt="me" width="20" height="20"></a><em>Hello</em><a href="#about"><img src="https://github.com/juliaxy0/juliaxy0.github.io/blob/main/flower.png?raw=true" alt="me" width="20" height="20"></a></h1>
+      <p><strong>My name is Julia</strong></p>
+      <p>I am a <span style="color:white;font-weight:bold">second year</span> software engineer student. </p>
+    </div>
+    <!-- text  -->
+  </div>
+
+
+  <!-- model -->
+  <img src="mypic.jpg" class="model" alt="me">
+  <!-- model -->
+
+  <!-- about -->
+  <div class="about-container">
+    <!-- about text  -->
+<table>
+<tr>
+<th>Category</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>Name</td>
+<td>Julia Nurfadhilah</td>
+</tr>
+
+<tr>
+<td>Favourite food</td>
+<td>Japanese food</td>
+</tr>
+
+<tr>
+<td>Contact number</td>
+<td>011-51655810</td>
+</tr>
+</table>
+  </div>
+  <!-- about -->
+
+</body>
+
+</html>
